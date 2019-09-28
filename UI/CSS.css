@@ -1,0 +1,59 @@
+/* Styling the body */
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Add a pink background color to the top navigation bar */
+
+.topnav{
+	background-color: #426a88;
+	border-bottom: 1px solid #426a88;
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.logo{
+	float: left !important;
+	font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+}
+.topnav .links{
+	float: right;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Change the color of links on hover */
+
+.topnav .links:hover{
+	color: #b6ff62;
+	text-decoration: underline;
+}
+
+.topnav .logo:hover{
+	color: #b6ff62;
+}
+
+/* Add a color to the active/current link */
+
+/*.topnav a.active{
+	background-color: #5384a9;
+	color: white;
+}*/
+
+
+.contain{
+	width: 80%;
+	margin: 0 10%;
+}
