@@ -3,9 +3,14 @@
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
+  background-image: url(../Images/bg.jpg);
+  background-repeat: no-repeat;
+      background-position-y: 29%;
+  background-size: cover;
+  height: 100%;
 }
 
-/* Add a pink background color to the top navigation bar */
+/* Add a background color to the top navigation bar */
 
 .topnav{
 	background-color: #426a88;
@@ -45,15 +50,35 @@ body {
 	color: #b6ff62;
 }
 
-/* Add a color to the active/current link */
-
-/*.topnav a.active{
-	background-color: #5384a9;
-	color: white;
-}*/
-
+.centered{
+	text-align: center;
+}
 
 .contain{
 	width: 80%;
 	margin: 0 10%;
+}
+
+.home-text{
+	margin : 10% 0 10% 0;
+	color: #426a88;
+}
+.home-text p{
+	margin-top: 10%;
+}
+.link-start{
+	text-decoration: none;
+    font-size: 1.4rem;
+    border: none;
+    color: #426a88;
+    box-shadow: none;
+    background: #fff;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: none;
+}
+.link-start:hover{
+	color: #fff;
+	background: #426a88;
 }
