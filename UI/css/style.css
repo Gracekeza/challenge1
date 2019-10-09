@@ -422,6 +422,31 @@ ul.list.nav__list.js-nav-list {
   line-height: 1.8em;
   padding: 0 50px;
 }
+.story__toolbar {
+  position: relative;
+  height: 60px;
+  padding: 0 50px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.story__toolbar .toolbar__buttons {
+  display: flex;
+  align-items: center;
+}
+.story__toolbar .toolbar__edit-btn {
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+.story__fav-icon {
+  margin-left: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
 @-webkit-keyframes spinAround {
   from {
     -webkit-transform: rotate(0);
