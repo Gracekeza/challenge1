@@ -163,6 +163,12 @@
   bottom: 0;
   width: 100%;
 }
+.footer-relative {
+  text-align: center;
+  color: #ffffff;
+  position: relatuve;
+  width: 100%;
+}
 ul.list.nav__list.js-nav-list {
     margin: 0;
 }
