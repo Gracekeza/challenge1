@@ -163,6 +163,12 @@
   bottom: 0;
   width: 100%;
 }
+.footer-relative {
+  text-align: center;
+  color: #ffffff;
+  position: relatuve;
+  width: 100%;
+}
 ul.list.nav__list.js-nav-list {
     margin: 0;
 }
@@ -279,6 +285,116 @@ ul.list.nav__list.js-nav-list {
   position: relative;
   width: 1em;
   border-color: transparent transparent #fff #fff !important;
+}
+.story-list {
+  padding: 40px 0px 40px 12%;
+}
+.story-list__title {
+  color: #ffffff;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 39px;
+  font-weight: normal;
+}
+.story-list__item .item__holder {
+  background: #f0eded;
+  height: 300px;
+}
+.story-list__item {
+  background-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #000000;
+  float: left;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 10px 1%;
+  max-width: 300px;
+  min-width: 250px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+.story-list__item * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.story-list__item .item__caption {
+  padding: 25px 20px 25px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+.story-list__item .item__date {
+  background-color: #fff;
+  color: #333;
+  font-size: 18px;
+  font-weight: 800;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 10px 0;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+}
+.item__date .date__span {
+  display: block;
+  line-height: 14px;
+}
+.item__date .date__month {
+  font-size: 11px;
+}
+.item__date .date__year {
+  font-size: 12px;
+}
+.item__caption .caption__text {
+  margin: 0;
+  padding: 0;
+}
+.item__caption .caption__title {
+  font-weight: 800;
+  letter-spacing: -0.4px;
+}
+.story-list__item .item__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fefefe;
+  align-items: center;
+  background-color: rgba(236, 188, 46, 0.75);
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  opacity: 0;
+}
+.story-list__item .item__link {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+.story-list__item:hover .item__overlay {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  opacity: 1;
+}
+.story-list__item:hover .item__caption {
+  opacity: 0;
+}
+.story-list__item:hover .item__date {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.story-list__load-btn {
+  text-align: center;
 }
 @-webkit-keyframes spinAround {
   from {
