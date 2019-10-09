@@ -396,6 +396,32 @@ ul.list.nav__list.js-nav-list {
 .story-list__load-btn {
   text-align: center;
 }
+.story {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+  margin-top: 50px;
+  background: #ffffff;
+  width: 75%;
+}
+.story__date {
+  color: #666;
+  font-size: 16px;
+  margin-left: 5px;
+  padding-left: 50px;
+}
+.story__title {
+  color: #333;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 5px;
+  padding-left: 50px;
+}
+.story__content {
+  font-size: 25px;
+  line-height: 1.8em;
+  padding: 0 50px;
+}
 @-webkit-keyframes spinAround {
   from {
     -webkit-transform: rotate(0);
