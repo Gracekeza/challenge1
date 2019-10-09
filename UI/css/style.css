@@ -441,6 +441,10 @@ ul.list.nav__list.js-nav-list {
   margin-right: 10px;
   margin-top: 0px;
 }
+.story__toolbar .toolbar__delete-btn {
+  background-color: transparent;
+  color: #3bbfaf !important;
+}
 .story__fav-icon {
   margin-left: 40px;
   height: 40px;
@@ -473,6 +477,68 @@ ul.list.nav__list.js-nav-list {
 }
 .modal__text {
   padding-top: 80px;
+}
+.profile * {
+  box-sizing: border-box;
+  padding: 0 !important;
+}
+.profile {
+  width: 320px;
+  margin: 3em auto 0 auto;
+  border-radius: 8px;
+  padding-bottom: 0;
+  background-color: #ffffff;
+}
+.profile__header {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 2em;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.profile__header .header__img {
+  border-bottom: 8px solid #6865f9;
+}
+.profile__data {
+  margin-top: 0.6em;
+  color: #81878b;
+}
+.profile__data .data__item {
+  width: 32%;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5em;
+  border-right: solid 1px #bdc3c7;
+}
+.profile__data .data__item:last-child {
+  border: none;
+}
+.data__item .span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  margin-top: 0.6em;
+  font-weight: 700;
+}
+
+.profile__title {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 171px;
+  padding: 1.2em 1em 0 1em;
+  color: white;
+  text-align: center;
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+.profile__title .title__text {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
 }
 @-webkit-keyframes spinAround {
   from {
