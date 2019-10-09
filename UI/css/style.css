@@ -675,4 +675,53 @@ ul.list.nav__list.js-nav-list {
   .hero__text {
     font-size: 16px;
   }
+  .feature-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .feature-list__title {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  .feature-list__item {
+    width: 80%;
+  }
+  .footer {
+    min-height: 10vh;
+    background: #0f0f11;
+  }
+  .form-group {
+    width: 95%;
+    position: relative;
+    margin: 2.5% auto 0 auto;
+    left: 0%;
+    -webkit-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+  }
+  .story-list {
+    padding: 40px 0px 40px 5%;
+    width: 75%;
+  }
+  .story-list__title {
+    margin-top: 50px;
+  }
+  .story {
+    width: 100%;
+  }
+  .story__edit-btn,
+  .story__delete-btn {
+    height: 30px;
+    width: 80px;
+  }
+  .icon {
+    margin-top: 3px;
+  }
+  .modal__body {
+    width: 80%;
+  }
 }
