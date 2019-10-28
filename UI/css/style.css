@@ -52,12 +52,7 @@
 }
 .nav__link:hover {
   text-decoration: underline;
-  font-size: 24px;
-  transition:all 1s ease-in-out;
-  -ms-transition:all 1s ease-in-out;
-  -webkit-transition:all 1s ease-in-out;
-  -moz-transition:all 1s ease-in-out;
-  -o-transition:all 1s ease-in-out;
+  font-weight: 400;
 }
 .nav__list {
   display: block;
